@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nakama</title>
+    <link rel="icon" href="img/iconfree.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"  rel="stylesheet"  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: Crimson;">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img src="img/icon.png" alt="Bootstrap" width="70" height="60">
+        </a>
+
+        <span class="navbar-brand text-warning mb-0 h1">
+          <h6 class="text-uppercase fw-bold mb-0">
+            <p class="navbar-name">
+              Nakama Hamburgueria
+          </h6></p>
+        </span>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="index.html">
+                <p class="navbar-style">
+                  Home
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-warning" href="galeria.html">
+                <p class="navbar-style">
+                  Galeria
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-warning" href="contato.html">
+                <p class="navbar-style">
+                  Contato
+                </p>
+              </a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Digite sua busca..." aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Buscar</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+
+    <br>
+
+    <!--titulo-->
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <h1>CARDÁPIO</h1>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Conheça nossos pratos
+      </figcaption>
+    </figure>
+
+    <!--card1-->
+  
+    <br>
+  
+    <div class="container text-center">
+      <div class="row">
+
+          <div class="col">
+            <div class="box-shadow">
+                <img src="img/cardápio/lanches/gomu gomu.png" class="card-img-top" alt="..." width="100" height="400">
+                  <div class="card-body">
+                    <br>
+                    <h5 class="card-title text-danger"><b>Gomu Gomu</b></h5>
+                    <p class="card-text">
+                      Composto por carne bovina, frango empanado, cheddar, bacon e molho barbecue.
+                      <br>
+                      <h5 class="card-title text-danger"><b>R$ 35,00</b></h5>
+                    </p>
+    
+                    <!-- botão modal1 -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                   
+                  </div>  
+              </div>
+          </div>
+
+          <!-- modal1 -->
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Deseja confirmar sua compra?</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                 A forma de pagamento poderá ser mediante á cartão de credito, pix ou dinheiro e há taxa de entrega;
+                <br>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Confirmar</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+                  <img src="img/cardápio/lanches/gomu gomu gear.png" class="card-img-top" alt="..." width="100" height="400">
+                  <div class="card-body">
+                    <br>
+                    <h5 class="card-title text-danger"><b>Gomu Gomu Gear</b></h5>
+                    <p class="card-text">
+                      Mantem a receita do <b>gomu gomu</b> e + uma fatia de bacon e o nosso molho picante especial.
+                    <br>
+                    <h5 class="card-title text-danger"><b>R$ 38,00</b></h5>
+                    </p>
+    
+                    <!-- botão modal1 -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+  
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/lanches/ruivo.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Ruivo</b></h5>
+                  <p class="card-text">
+                    Com ingredientes 100% veganos: colve, carne de soja, queijo derretido e + uma soda grátis.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 49,00</b></h5>
+                  </p>
+
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/lanches/portgas d. ace.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Portgas d. ace</b></h5>
+                  <p class="card-text">
+                    Contém carne, queijo artesal, tomate, picles, champignon e molho de pimenta mexicana.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 42,00</b></h5>
+                  </p>
+
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+    
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <!--card2-->
+
+    <br>
+  
+    <div class="container text-center">
+        <div class="row">
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/lanches/big mom.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>BIG MOM!!!</b></h5>
+                  <p class="card-text">
+                    O Maior hambruguer da casa.Topa esse Desafio? Uma mega-carne, fatias de bacon, molho barbecue e colve com alho crocante.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 52,00</b></h5>
+                  </p>
+
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+             
+                  </div>  
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/lanches/sanji.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Sanji</b></h5>
+                  <p class="card-text">
+                    È composto por hamburguer de file mignon, alface, picles e um cream chesse com tempero francês.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 44,00</b></h5>
+                  </p>
+
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/lanches/do flamingo.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Do Flamingo</b></h5>
+                  <p class="card-text">
+                    Um hamburguer autêntico.Composto por frango empanado com molho da casa, alface, cebola e tomate.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 37,99</b></h5>
+                  </p>
+
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+        
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/lanches/guioza.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Guiozas - 8 unidades</b></h5>
+                  <p class="card-text">
+                    Um bolinho composto por uma massa macia, junto a repolho e carne-bovina ou se preferir carne-suicina.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 25,00</b></h5>
+                  </p>
+
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+    
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <!--card3-->
+  
+    <br>
+  
+   <div class="container text-center">
+      <div class="row">
+
+        <div class="col">
+          <div class="box-shadow">
+            <img src="img/cardápio/sobremesas/luffy cake.png" class="card-img-top" alt="..." width="100" height="400">
+              <div class="card-body">
+                <br>
+                <h5 class="card-title text-danger"><b>Luffy Cake</b></h5>
+                <p class="card-text">
+                  Um delicoso bolo de chocolate com glacê de chocolate.
+                <br>
+                <h5 class="card-title text-danger"><b>R$ 17,00</b></h5>
+                </p>
+
+                <!-- botão modal1 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+  
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="box-shadow">
+            <img src="img/cardápio/sobremesas/brownie de m&m.png" class="card-img-top" alt="..." width="100" height="400">
+              <div class="card-body">
+                <br>
+                <h5 class="card-title text-danger"><b>Brownie de m&m</b></h5>
+                <p class="card-text">
+                  Brownie de chocolate com cobertura de chocolate e m&m.
+                <br>
+                <h5 class="card-title text-danger"><b>R$ 22,00</b></h5>
+                </p>
+
+                <!-- botão modal1 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+  
+                </div>
+            </div>
+        </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/sobremesas/akuma no mi.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Akuma no mi</b></h5>
+                  <p class="card-text">
+                    Maça coberta com açai, recheio de sorvete de baunilha e calda.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 18,00</b></h5>
+                  </p>
+  
+                  <!-- botão modal1 -->
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+    
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/sobremesas/romeu e julieta.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Romeu e Julieta</b></h5>
+                  <p class="card-text">
+                    Uma massa crocante, com recheio de goiabada e queijo.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 14,00</b></h5>
+                  </p>
+
+                <!-- botão modal1 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--card4-->
+
+    <br>
+  
+    <div class="container text-center">
+      <div class="row">
+
+          <div class="col">
+            <div class="box-shadow2">
+              <img src="img/cardápio/bebidas/café gelado.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-warning"><b>Café Gelado <br> PROMOÇÃO </b></h5>
+                  <p class="card-text">
+                    Nos sabores café com leite ou café puro.Te da uma dose extra de energia.Corra e aproveite a promoção!
+                  <br>
+                  <h5 class="card-title text-warning"><b>R$ 9,99</b></h5>
+                  </p>
+
+                <!-- botão modal2 -->
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2"> Comprar </button>
+    
+                </div>
+            </div>
+        </div>
+
+          <!-- modal2 -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Deseja confirmar sua compra?</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                 A forma de pagamento poderá ser mediante á cartão de credito, pix ou dinheiro e há taxa de entrega;
+                <br>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="submit" class="btn btn-warning" data-bs-dismiss="modal">Confirmar</button>
+                </div>
+              
+              </div>  
+            </div>
+          </div> 
+ 
+          <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/bebidas/bubble tea.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Bubble tea</b></h5>
+                  <p class="card-text">
+                    Uma bebida a base de yalkut com sabor morango, acompanha chantilly, morango e bolinhas de maça verde que estouram na boca.
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 20,00</b></h5>
+                  </p>
+
+                <!-- botão modal1 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                 
+                 </div>
+              </div>
+           </div>
+ 
+           <div class="col">
+             <div class="box-shadow">
+                <img src="img/cardápio/bebidas/soda.png" class="card-img-top" alt="..." width="100" height="400">
+                  <div class="card-body">
+                    <br>
+                    <h5 class="card-title text-danger"><b>Soda 18+</b></h5>
+                    <p class="card-text">
+                     Parece uma soda comum, mas acompanha uma dose de vodca que deixa um gosto marcante. <br> <b>APENAS PARA MAIORES DE 18 ANOS</b>.
+                    <br>
+                    <h5 class="card-title text-danger"><b>R$ 9,99</b></h5>
+                    </p>
+
+                    <!-- botão modal1 -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                 
+                   </div>
+               </div>
+           </div>
+ 
+           <div class="col">
+            <div class="box-shadow">
+              <img src="img/cardápio/bebidas/pepsi franky.png" class="card-img-top" alt="..." width="100" height="400">
+                <div class="card-body">
+                  <br>
+                  <h5 class="card-title text-danger"><b>Pepsi Franky</b></h5>
+                  <p class="card-text">
+                    Se quiser optar por uma opção mais tradiconal temos refrigerante de cola da pepsi temática do personagem Franky de one piece. Comprando 2 o 3° é grátis
+                  <br>
+                  <h5 class="card-title text-danger"><b>R$ 10,00</b></h5>
+                  </p>
+
+                <!-- botão modal1 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Comprar </button>
+                 
+                </div>
+              </div>
+          </div>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+    <!-- rodapé -->
+      <footer class="text-center text-lg-start bg-light text-warning">
+        <div class="rodape">
+        <!-- section: social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    
+          <!-- esquerda -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Nos acompanhe no instragram e fique por dentro das NOVIDADES!</span>
+          </div>
+        
+          <!-- direita -->
+          <div>
+            <a href="https://www.instagram.com/onepiece_staff/" target="_blank" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+    
+      </section>
+    
+      <!-- section: links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+    
+          <!-- grid row -->
+          <div class="row mt-3">
+
+            <!-- grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <img src="img/icon.png" class="rounded-circle" alt="Cinque Terre" width="200" height="200">
+                <br>
+                <br>
+                <i class="fas fa-burger me-3"></i> Nakama Hamburgueria
+              </h6>
+              <p>
+                Bem vindo a bordo, Pirata!
+                Nós somos uma tripulação apaixonados por hamburguer.
+              </p>
+
+            </div>
+    
+            <!-- grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Navega pela nossa pagina:
+              </h6>
+              <p>
+                <a href="index.html" class="text-reset">
+                  <p class="navbar-style">
+                    Home
+                  </p>
+                </a>
+              </p>
+              <p>
+                <a href="galeria.html" class="text-reset">
+                  <p class="navbar-style">
+                    Galeria
+                  </p>
+                </a>
+              </p>
+              <p>
+                <a href="contato.html" class="text-reset">
+                  <p class="navbar-style">
+                    Contato
+                  </p>
+                </a>
+              </p>
+
+              <br>
+        
+            </div>
+       
+            <!-- grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-location-dot me-3"></i>R. Maracaju, 20 - Vila Mariana, São Paulo - SP, 04013-020</p>
+              <p><i class="fas fa-clock me-3"></i>Funcionamento: de Terça-feira á Domingo &#40;12:00hs ás 22:00hs&#41;</p>
+              <p><i class="fas fa-envelope me-3"></i>burguernakama@gmail.com</p>
+              <p><i class="fas fa-phone me-3"></i> +55 11 4002-8922</p>
+              
+              <br>
+
+               <!--mapa-->
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.163296397412!2d-46.64283773016357!3d-23.5808963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5970e1a1a89f%3A0x8ab8ab82ef7c109b!2sJolly%20Roger%20Burger!5e0!3m2!1spt-BR!2sbr!4v1699059524450!5m2!1spt-BR!2sbr" 
+               width="300" height="300" FRAMEBORDER="0" scrolling="no" style="border: 3px solid goldenrod;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+               </iframe>
+
+            </div>
+    
+          </div>
+        </div>
+      </section>
+    
+      <br>
+      <br>
+
+      <!-- foto rodapé-->
+      <!-- grid container -->
+      <div class="container p-4">
+        <!-- section: images -->
+        <section class="">
+          <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          
+            <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="img/foto.rodapé/3.png"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="img/foto.rodapé/4.png"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="img/foto.rodapé/1.png"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="img/foto.rodapé/2.png"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="img/foto.rodapé/5.png"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="img/foto.rodapé/6.png"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+
+          </div>
+        </div>
+
+       </div>
+      </section>
+      <!-- section: Images -->
+      </div>
+      <!-- grid container -->
+
+      <!-- copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Nakama Hamburgueria
+      </div>
+
+      </div>
+      
+    </footer>
+  
+    <!-- libras-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- ... -->
+  
+    <script>
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  </body>
+  
+</html>

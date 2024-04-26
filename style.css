@@ -1,0 +1,93 @@
+/* index */
+
+/* click botão navbar */
+p.navbar-style:hover{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: medium;
+    background-color: #e72b39;
+    
+}
+
+/* nome navbar */
+p.navbar-name {
+
+    text-decoration-line: underline overline;
+    
+}
+
+/* fonte em geral */
+a {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: medium;
+    
+}
+
+/* sombra */ 
+.box-shadow {
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #dc143c;
+
+}
+
+/* sombra2 */ 
+.box-shadow2 {
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px goldenrod;
+
+}
+
+/* imagem chef de cozinha */
+.circular {
+
+	display: inline-block;
+    cursor: pointer;
+
+}
+
+/* nome chef de cozinha */
+.circularnome {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+
+}
+
+/* contato */
+
+/* luffy imagem */
+.container-right {  
+
+    float: right;
+
+}
+
+/* rodapé */
+
+.rodape {
+
+    background-color: #dc143c;
+}
+/* links rodapé */
+.text-reset {
+
+    text-decoration: none;
+
+}
+
+/* rodapé */
+h6.imagem {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: x-large;
+
+}

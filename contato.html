@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nakama</title>
+    <link rel="icon" href="img/iconfree.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"  rel="stylesheet"  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: Crimson;">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+          <img src="img/icon.png" alt="Bootstrap" width="70" height="60">
+        </a>
+
+        <span class="navbar-brand text-warning mb-0 h1">
+          <h6 class="text-uppercase fw-bold mb-0">
+            <p class="navbar-name">
+              Nakama Hamburgueria
+          </h6></p>
+        </span>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="index.html">
+                <p class="navbar-style">
+                  Home
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+             <a class="nav-link active text-warning" href="galeria.html">
+              <p class="navbar-style">
+                Galeria
+              </p>
+             </a>
+           </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-warning" href="contato.html">
+                <p class="navbar-style">
+                  Contato
+                </p>
+              </a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Digite sua busca..." aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Buscar</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+
+    <br>
+
+    <!--titulo-->
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <h1>CONTATO</h1>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+      Entre em contato conosco abaixo:
+      </figcaption>
+    </figure>
+
+    <div class="container-right">
+      <img src="img/luffy.gif" class="rounded float-right" alt="...">
+    </div>
+
+    <!--formulario-->
+    <form>
+      <div class="container-fluid">
+          
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Nome Completo:</label>
+              <input type="name" class="form-control" id="inputName" placeholder="digite seu nome completo...">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputEmail4">Email:</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="digite seu email...">
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputState">Assunto:</label>
+            <select id="inputState" class="form-control">
+              <option selected>Escolha uma opção...</option>
+              <option>Reclamação</option>
+              <option>Sugestão</option>
+              <option>Elogio</option>
+              <option>Solicitação</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+          <div class="form-group col-md-6">
+          <label for="exampleFormControlTextarea1">Escreva aqui:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <br> 
+
+        <div class="form-group">
+          <label for="exampleFormControlFile1">Adicione um documento:</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+
+        <br>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Deseja receber notificações
+            </label>
+          </div>
+        </div>
+
+        <br>
+
+        <!-- botão modal0 -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal0"> Enviar </button>
+
+        <!-- modal0 -->
+        <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+
+            <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">MUITO OBRIGADA PIRATA!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              Sua solicitação será respondida em até 48 horas :&#41;
+              <br>
+              <img src="img/chapeu.gif" width="450px" height="200px">
+              <br>
+            </div>
+
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="submit" class="btn btn-danger">Confirmar</button>
+            </div>
+
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- rodapé -->
+    <footer class="text-center text-lg-start bg-light text-warning">
+      <div class="rodape">
+      <!-- section: social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+        <!-- esquerda -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Nos acompanhe no instragram e fique por dentro das NOVIDADES!</span>
+        </div>
+      
+        <!-- direita -->
+        <div>
+          <a href="https://www.instagram.com/onepiece_staff/" target="_blank" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+  
+    </section>
+  
+    <!-- section: links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+  
+        <!-- grid row -->
+        <div class="row mt-3">
+
+          <!-- grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <img src="img/icon.png" class="rounded-circle" alt="Cinque Terre" width="200" height="200">
+              <br>
+              <br>
+              <i class="fas fa-burger me-3"></i> Nakama Hamburgueria
+            </h6>
+            <p>
+              Bem vindo a bordo, Pirata!
+              Nós somos uma tripulação apaixonados por hamburguer.
+            </p>
+
+          </div>
+  
+          <!-- grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Navega pela nossa pagina:
+            </h6>
+            <p>
+              <a href="index.html" class="text-reset">
+                <p class="navbar-style">
+                  Home
+                </p>
+              </a>
+            </p>
+            <p>
+              <a href="galeria.html" class="text-reset">
+                <p class="navbar-style">
+                  Galeria
+                </p>
+              </a>
+            </p>
+            <p>
+              <a href="contato.html" class="text-reset">
+                <p class="navbar-style">
+                  Contato
+                </p>
+              </a>
+            </p>
+
+            <br>
+      
+          </div>
+     
+          <!-- grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-location-dot me-3"></i>R. Maracaju, 20 - Vila Mariana, São Paulo - SP, 04013-020</p>
+            <p><i class="fas fa-clock me-3"></i>Funcionamento: de Terça-feira á Domingo &#40;12:00hs ás 22:00hs&#41;</p>
+            <p><i class="fas fa-envelope me-3"></i>burguernakama@gmail.com</p>
+            <p><i class="fas fa-phone me-3"></i> +55 11 4002-8922</p>
+            
+            <br>
+
+             <!--mapa-->
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.163296397412!2d-46.64283773016357!3d-23.5808963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5970e1a1a89f%3A0x8ab8ab82ef7c109b!2sJolly%20Roger%20Burger!5e0!3m2!1spt-BR!2sbr!4v1699059524450!5m2!1spt-BR!2sbr" 
+             width="300" height="300" FRAMEBORDER="0" scrolling="no" style="border: 3px solid goldenrod;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+
+          </div>
+  
+        </div>
+      </div>
+    </section>
+  
+    <br>
+
+    <!-- foto rodapé-->
+    <!-- grid container -->
+    <div class="container p-4">
+      <!-- section: images -->
+      <section class="">
+        <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+        
+          <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="img/foto.rodapé/3.png"
+            class="w-100"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.2);"
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="img/foto.rodapé/4.png"
+            class="w-100"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.2);"
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="img/foto.rodapé/1.png"
+            class="w-100"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.2);"
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="img/foto.rodapé/2.png"
+            class="w-100"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.2);"
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="img/foto.rodapé/5.png"
+            class="w-100"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.2);"
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="img/foto.rodapé/6.png"
+            class="w-100"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.2);"
+            ></div>
+          </a>
+
+        </div>
+      </div>
+
+      </div>
+    </section>
+    <!-- section: Images -->
+    </div>
+    <!-- grid container -->
+
+    <!-- copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Nakama Hamburgueria
+    </div>
+
+    </div>
+    
+  </footer>
+  
+    <!-- libras-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- ... -->
+  
+    <script>
+     type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  </body>
+  
+</html>
